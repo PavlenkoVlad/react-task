@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+.result {
+  height: 60px;
+  background-color: black;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.result p {
+  font-size: 40px;
+  margin: 5px;
+  text-align: right;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.calculator {
+  max-width: 280px;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.keyboard {
+  display: block;
+  background-color: black;
+}
+
+.digit-button {
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  background-color: #505050;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  margin: 5px 5px 5px 5px;
+}
+
+.operation-button {
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  background-color: #FF9500;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  margin: 5px 5px 5px 5px;
+}
+
+.save-button {
+  width: 270px;
+  height: 60px;
+  font-size: 30px;
+  background-color: #FF9500;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  margin: 5px 5px 5px 5px;
+}
+
+.option-button {
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  background-color: #D4D4D2;
+  color: black;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  margin: 5px 5px 5px 5px;
 }
